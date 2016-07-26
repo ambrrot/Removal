@@ -7,11 +7,11 @@ function processGrade(grade){
       console.log("GRADE is OVERKILL");   
     }
 
- else if('INC'){ 
+ else if(grade=='INC'){ 
     console.log("Your Grade is incomplete");
     }
     
-    else if('DROP'){
+    else if(grade=='DROP'){
       console.log("You drop the subject");   
     }
 else if (grade <75){
